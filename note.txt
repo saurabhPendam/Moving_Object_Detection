@@ -1,0 +1,21 @@
+Imutils: 
+Imutils is a python library that provides a series of convenience functions to make 
+basic processing operations easier with openCV and Python.
+
+
+Gaussian 
+Replaces the central elements with the calculated weighted mean of pixel values under the kernel area.
+In Gaussian blurring, pixels closer to the central element, contribute more to the weight. Gaussian blurring 
+is used to remove noise following a gaussian distribution.
+
+
+
+Threshold:
+In Python, thresholding is an intensity transformation technique used to create a binary image from a 
+grayscale image. The basic idea is to set a threshold value, and then classify each pixel in the image 
+as either black (0) or white (255) based on whether its intensity value is below or above the threshold.
+
+
+Contours:
+Contours are defined as the line joining all the points along the boundary of an image that are having the same intensity.
+Contours come handy in shape analysis, finding the size of the object of interest, and object detection.
